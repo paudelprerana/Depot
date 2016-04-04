@@ -17,7 +17,7 @@
 /* START_HIGHLIGHT */
 #banner {
   background: #9c9;
-  padding: 10px;
+  padding: 30px;
   border-bottom: 2px solid;
   font: small-caps 40px/40px "Times New Roman", serif;
   color: #282;
@@ -28,10 +28,14 @@
   }
 }
 
+#time {
+  color: #000;
+}
+
 #notice {
   color: #000 !important;
   border: 2px solid red;
-  padding: 1em;
+  padding: 5em;
   margin-bottom: 2em;
   background-color: #f0f0f0;
   font: bold smaller sans-serif;
@@ -48,7 +52,7 @@
 
   #side {
     float: left;
-    padding: 1em 2em;
+    padding: 2em 2em;
     width: 13em;
     background: #141;
 

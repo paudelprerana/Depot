@@ -9,11 +9,12 @@
 <body class='<%= controller.controller_name %>'>
 
 <div id="banner">
-<%= @page_title || "Pragmatic Bookshelf" %>
+<%= @page_title || " My Bookshelf" %>
 </div>
 
 <div id = "columns" >
 	<div id="side">
+        <p id = "time"> It is now <%= Time.now %> </p>
 		<ul>
 			<li> <a href="" > Home</a></li>
 			<li> <a href="" > Contacts</a> </li>
