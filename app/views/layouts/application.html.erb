@@ -14,6 +14,11 @@
 
 <div id = "columns" >
 	<div id="side">
+		<div id= "cart">
+			<%= render @cart %>
+		</div>
+
+		<p id ="time"><%= pluralize session[:counter], 'time' %> </p>
         <p id = "time"> It is now <%= Time.now %> </p>
 		<ul>
 			<li> <a href="" > Home</a></li>
